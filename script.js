@@ -85,11 +85,15 @@ function displayMovieDetails(details){
     </div>
     `;
 }
+// function changeColor() {
+//      document.body.style.background = cadetblue;
+//     }
+     
+let wr=document.getElementsByClassName("wrapper")[0];
 function changeColor() {
-     document.body.style.background = cadetblue;
-    }
-     
-     
+//  document.body.style.background = cadetblue;
+wr.style.background=cadetblue;
+}    
 
 window.addEventListener('click', (event) => {
     if(event.target.className != "form-control"){
