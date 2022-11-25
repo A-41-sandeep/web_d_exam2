@@ -51,6 +51,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    background-color: aquamarine;
 }
 a{
     text-decoration: none;
@@ -61,7 +62,7 @@ img{
 }
 .wrapper{
     min-height: 100vh;
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color); */
 }
 .wrapper .container{
     max-width: 1200px;
